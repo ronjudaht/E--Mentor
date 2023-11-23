@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RJ Portfolio</title>
+    <!--boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--website icon-->
+    <link rel="icon" type="image/png" href="files/RJlogo.png"/>
+
+    <!--my css-->
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body > 
+  <!--header design-->
+  <header class="header">
+    <a href="" class="logo">Web Portfolio</a>
+    
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about" class="">About</a>
+        <a href="#service" class="">Service</a>
+        <!--<a href="#project" class="">Project</a> dont have a project to show yet --> 
+        <a href="#contact" class="">Contact</a>
+    </nav>
+    
+    <div class="bx bx-moon" id="darkMode-icon"></div>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+    
+  </header>
+
+  <!--home section design-->
+  <section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, I am</h3>
+        <h1>Ron Judah</h1>
+        <p>A Student of Uplift Code Camp </p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/ronjudahT" target="_blank" id=""><i class='bx bxl-facebook-circle' ></i></a>
+            <a href="https://www.instagram.com/ronjudah/" target="_blank" id=""><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.linkedin.com/in/ron-judah-tamayo-a2b36528a/" target="_blank" id=""><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://gitlab.com/ronjudaht" target="_blank" id=""><i class='bx bxl-gitlab' ></i></a>
+        </div>
+        <a href="Ron Judah Tamayo CV.pdf" download   class="btn">Download CV</a>
+    </div>
+
+    <div class="profession-container">
+        <div class="profession-box">                     
+            <div class="profession" style="--i:3">
+                <i class='bx bxs-palette' ></i>
+                <h3>Web Designer</h3>
+            </div>
+            <div class="profession" style="--i:2">
+                <i class='bx bx-camera' ></i>
+                <h3>Photographer</h3>
+            </div> 
+            <div class="profession" style="--i:1">
+                <i class='bx bxs-data' ></i>
+                <h3>Data Analyst</h3>
+            </div>            
+            <div class="circle"></div>
+        </div>
+        <div class="overlay"></div>
+    </div>
+
+    <div class="home-img">
+        <img src="files/Home3.png" alt="">
+    </div>
+
+  </section>
+
+  <!--about section design -->
+  <section class="about" id="about">
+    <div class="about-img">
+        <img src="files/Judah _ Ella-2001.jpg" alt="">
+    </div>
+
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Hi, I'm Ron Judah Tamayo</h3>
+        <p>I am a graduate of BS Information Communications Technology from University of San Carlos.</p>
+        <p>A passionate individual with a love for web designing and photography I thrive on turning creative ideas into compelling realities.</p>
+        <p>My hobbies are playing basketball, watching movies, anime, reading mangga, and playing mobile games also I enjoy playing musical instruments.</p>
+        
+        <a href="#" class="btn">Read More</a>
+    </div>
+
+  </section>
+
+  <!--service section design -->
+  <section class="service" id="service">
+    <h2 class="heading">My<span>Services</span></h2>
+    <div class="service-container">
+        
+        <div class="service-box">
+            <i class='bx bx-palette' ></i>
+            <h3>Web Designer</h3>
+            <p>Web design is a Web development process for creating a website that focuses on aesthetic factors like layout, user interface and other visual imagery in order to make the website more visually appealing and easy to use.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="service-box">
+            <i class='bx bx-camera' ></i>
+            <h3>Photography</h3>
+            <p>Photography literally means 'drawing with light', which derives from the Greek photo, meaning light and graph, meaning to draw. It is the process of recording an image on lightsensitive film or, in the case of digital photography.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="service-box">
+            <i class='bx bx-data' ></i>
+            <h3>Data Analyst</h3>
+            <p>A data analyst reviews data to identify key insights into a business's customers and ways the data can be used to solve problems. They also communicate this information to company leadership and other stakeholders.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+  </section>
+
+  <!--project section design will use when I have created projects -->
+  <!--<section class="project" id="project">
+    <h2 class="heading">Latest<span>Project</span></h2>
+
+    <div class="project-container">
+        <div class="project-box">
+            <img src="" alt="">
+            <div class="prroject-layer">
+                <h4>Project Nae</h4>
+                <p>Project description</p>
+                <a href="#"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+    </div>
+
+  </section> -->
+
+  <!--contact section design -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact<span>Me!</span></h2>
+
+    <form action="https://formsubmit.co/lsron2016@gmail.Communications" method="POST">
+        <div class="input-box">
+            <input type="text" placeholder="Full name">
+            <input type="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+
+  </section>
+
+  <!--footer design-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2023 by RJ | All Rights Reserved </p>
+    </div>
+
+    <div class="footer-icon">
+        <a href="#home"><i class='bx bx-chevron-up' ></i></a>
+    </div>
+</footer>
+
+
+<script src="script.js"></script>    
+</body>
+</html>
