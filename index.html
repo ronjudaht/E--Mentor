@@ -38,36 +38,42 @@
         <h3>Hello, I am</h3>
         <h1>Ron Judah</h1>
         <p>A Student of Uplift Code Camp </p>
+        
         <div class="social-media">
             <a href="https://www.facebook.com/ronjudahT" target="_blank" id=""><i class='bx bxl-facebook-circle' ></i></a>
             <a href="https://www.instagram.com/ronjudah/" target="_blank" id=""><i class='bx bxl-instagram'></i></a>
             <a href="https://www.linkedin.com/in/ron-judah-tamayo-a2b36528a/" target="_blank" id=""><i class='bx bxl-linkedin' ></i></a>
             <a href="https://gitlab.com/ronjudaht" target="_blank" id=""><i class='bx bxl-gitlab' ></i></a>
-        </div>
+        </div>    
         <a href="Ron Judah Tamayo CV.pdf" download   class="btn">Download CV</a>
     </div>
 
     <div class="profession-container">
         <div class="profession-box">                     
-            <div class="profession" style="--i:3">
+            <div class="profession" style="--i:0">
                 <i class='bx bxs-palette' ></i>
                 <h3>Web Designer</h3>
             </div>
-            <div class="profession" style="--i:2">
+            <div class="profession" style="--i:1">
                 <i class='bx bx-camera' ></i>
                 <h3>Photographer</h3>
             </div> 
-            <div class="profession" style="--i:1">
+            <div class="profession" style="--i:2">
                 <i class='bx bxs-data' ></i>
                 <h3>Data Analyst</h3>
-            </div>            
+            </div>   
+            <div class="profession" style="--i:3">
+                <box-icon name='wifi'></box-icon>
+                <h3>Network & Svcs Asociate</h3>
+            </div>         
             <div class="circle"></div>
         </div>
+
         <div class="overlay"></div>
     </div>
 
     <div class="home-img">
-        <img src="files/Home3.png" alt="">
+        <img src="files/Home4.png" alt="">
     </div>
 
   </section>
@@ -99,19 +105,19 @@
             <i class='bx bx-palette' ></i>
             <h3>Web Designer</h3>
             <p>Web design is a Web development process for creating a website that focuses on aesthetic factors like layout, user interface and other visual imagery in order to make the website more visually appealing and easy to use.</p>
-            <a href="#" class="btn">Read More</a>
+            <a href="https://targetjobs.co.uk/careers-advice/job-descriptions/web-designer-job-description#:~:text=A%20web%20designer%20is%20responsible,its%20layout%20and%20its%20usability." target="_blank" class="btn">Read More</a>
         </div>
         <div class="service-box">
             <i class='bx bx-camera' ></i>
-            <h3>Photography</h3>
+            <h3>Photographer</h3>
             <p>Photography literally means 'drawing with light', which derives from the Greek photo, meaning light and graph, meaning to draw. It is the process of recording an image on lightsensitive film or, in the case of digital photography.</p>
-            <a href="#" class="btn">Read More</a>
+            <a href="https://www.indeed.com/recruitment/job-description/photographer" target="_blank" class="btn">Read More</a>
         </div>
         <div class="service-box">
             <i class='bx bx-data' ></i>
             <h3>Data Analyst</h3>
             <p>A data analyst reviews data to identify key insights into a business's customers and ways the data can be used to solve problems. They also communicate this information to company leadership and other stakeholders.</p>
-            <a href="#" class="btn">Read More</a>
+            <a href="https://www.coursera.org/articles/what-does-a-data-analyst-do-a-career-guide" target="_blank" class="btn">Read More</a>
         </div>
     </div>
   </section>
@@ -137,16 +143,16 @@
   <section class="contact" id="contact">
     <h2 class="heading">Contact<span>Me!</span></h2>
 
-    <form action="https://formsubmit.co/lsron2016@gmail.Communications" method="POST">
+    <form onsubmit="sendEmail(); reset(); return false;">
         <div class="input-box">
-            <input type="text" placeholder="Full name">
-            <input type="email" placeholder="Email Address">
+            <input type="text" placeholder="Full name" id="name">
+            <input type="email" placeholder="Email Address" id="email">
         </div>
         <div class="input-box">
-            <input type="number" placeholder="Mobile Number">
-            <input type="text" placeholder="Email Subject">
+            <input type="number" placeholder="Mobile Number" id="number">
+            <input type="text" placeholder="Email Subject" id="emailSubject">
         </div>
-        <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
         <input type="submit" value="Send Message" class="btn">
     </form>
 

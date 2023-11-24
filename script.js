@@ -21,7 +21,7 @@ window.onscroll = () => {
         let top = window.scrollY;
         let offset = sec.offsetTop - 150;
         let height = sec.offsetHeight;
-        let id =sec.getAttribute('id');
+        let id = sec.getAttribute('id');
 
         if(top >+ offset && top < offset + height) {
             navLinks.forEach(links => {
@@ -37,7 +37,7 @@ let header = document.querySelector('.header');
 header.classList.toggle('sticky', window.scrollY > 100);
 
 /*=============== remove icon navbar when clicked =============*/    
-menuIcon.classList.toggle('bx-x');
+menuIcon.classList.remove('bx-x');
 navbar.classList.remove('active');
 
 
@@ -55,3 +55,13 @@ darkModeIcon.onclick = () => {
     document.body.classList.toggle('dark-mode');
 }
 
+/*===============  send email  =============*/   
+function sendEmail() {
+    var body = document.getElementById("name , email,number").value;
+    var email = document.getElementById("email").value;
+    var number = document.getElementById("number").value;
+    var emailSubject = document.getElementById("emailSubject").value;
+    var email = document.getElementById("message").value;
+    window.location.href = "mailto:lsron2016@gmail.com?subject="+emailSubject+"&body="+body;
+
+}
