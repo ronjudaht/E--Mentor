@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" >
+    <title>Food Recipe</title>
+</head>
+<body>
+    <div class="container">
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <h2 class="title">Meal Finder</h2>
+                <p>Good food depends almost entirely on good ingredients. </br> - Alice Waters</p>
+                <div class="meal-search-box">                   
+                    <input type="text" class="search-control" id="search-input" name="q" placeholder="Enter Your Ingredients ">
+                    <button type="submit" class="search-btn btn" id="search-btn" ><i class='bx bx-search'></i></button>
+                </div>
+            </div>
+            <div class="meal-reults">
+                <h2 class="title">Your Search Results:</h2>
+                <div id="meal">                                
+                </div>
+            </div>      
+            <div class="meal-details">
+                <button type="button" class="recipe-close-btn" id="recipe-close-btn"> <i class='bx bx-x'></i> </button>                                
+                <div class="meal-details-content">                 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
