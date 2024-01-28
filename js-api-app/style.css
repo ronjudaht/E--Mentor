@@ -279,3 +279,12 @@ body {
          margin: 0;
      }
 }
+
+@media screen and (max-width: 370px) {
+     .meal-search-box {
+      width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+}
