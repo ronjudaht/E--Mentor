@@ -264,7 +264,7 @@ body {
 
 @media screen and (max-width: 600px) {
     .meal-search-box {
-        width: 540px;
+        width: 340px;
         margin-left: auto;
         margin-right: auto;
     }
